@@ -11,10 +11,10 @@ $EM_CONF[$_EXTKEY] = [
     'author_email' => 'pfennigstorf@sub.uni-goettingen.de',
     'author_company' => 'SUB Uni-Göttingen',
     'constraints' => [
-            'depends' => [
-                    'typo3' => '7.6.0-7.99.99',
-                ],
-            'conflicts' => [],
-            'suggests' => [],
-        ],
+        'depends' => [
+                'typo3' => '7.6.0-8.7.99',
+            ],
+        'conflicts' => [],
+        'suggests' => [],
+    ],
 ];

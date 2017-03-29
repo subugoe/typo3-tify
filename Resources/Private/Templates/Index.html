@@ -1,0 +1,13 @@
+<div id="tify-viewer"></div>
+
+<script>
+  var manifest = '{data.bodytext}';
+  var title = '{data.header}';
+
+  tifyOptions = {
+    container: '#tify-viewer',
+    manifestUrl: manifest,
+    title: title
+  }
+</script>
+<script src="{f:uri.resource(path: 'JavaScript/tify.js', extensionName: 'tify')}"></script>

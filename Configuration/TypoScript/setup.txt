@@ -1,0 +1,13 @@
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:fluid_styled_content/Configuration/TypoScript/Static/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:fluid_styled_content/Configuration/TypoScript/Styling/setup.txt">
+
+tt_content {
+    tify < lib.fluidContent
+    tify {
+        templateRootPaths {
+            10 = EXT:tify/Resources/Private/Templates/
+        }
+
+        templateName = Index
+    }
+}
