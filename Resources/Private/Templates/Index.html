@@ -1,13 +1,24 @@
 <div id="tify-viewer"></div>
-
 <script>
   var manifest = '{data.bodytext}';
   var title = '{data.header}';
+  var languageCode = {data.sys_language_uid};
+
+  var language = function() {
+    var lang = 'en';
+    if (languageCode !== 0) {
+      lang = 'de';
+    }
+
+    return lang;
+  };
 
   tifyOptions = {
     container: '#tify-viewer',
     manifestUrl: manifest,
-    title: title
-  }
+    title: title,
+    language: language()
+  };
+
 </script>
 <script src="{f:uri.resource(path: 'JavaScript/tify.js', extensionName: 'tify')}"></script>
