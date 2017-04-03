@@ -1,4 +1,4 @@
-<div id="tify-viewer"></div>
+<div id="tify-viewer" class="tify_viewer"></div>
 <script>
   var manifest = '{data.bodytext}';
   var title = '{data.header}';
@@ -21,4 +21,11 @@
   };
 
 </script>
+<style>
+    .tify_viewer {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+</style>
 <script src="{f:uri.resource(path: 'JavaScript/tify.js', extensionName: 'tify')}"></script>
