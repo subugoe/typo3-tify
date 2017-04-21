@@ -22,6 +22,8 @@
 	"Current page": "Aktuelle Seite",
 	"Loading": "Wird geladen",
 
+	"No transcript available for this page": "Transkription nicht verfügbar",
+
 	"Author": "Autor",
 	"Classification": "Klassifikation",
 	"Date": "Datum",
@@ -29,6 +31,9 @@
 	"Publishing place": "Ort der Veröffentlichung",
 	"Publishing year": "Jahr der Veröffentlichung",
 	"Publisher": "Verlag",
+	"Summary": "Zusammenfassung",
+	"Show all": "Alles anzeigen",
+	"Collapse": "Verkleinern",
 
 	"Renderings": "Bilddaten",
 	"Literature Management": "Literaturverwaltung",
