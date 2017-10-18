@@ -5,7 +5,7 @@
     "main": "index.js",
     "private": true,
     "dependencies": {
-        "tify": "^0.12.3"
+        "tify": "^0.14.1"
     },
     "devDependencies": {},
     "scripts": {
