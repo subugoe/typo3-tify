@@ -2,7 +2,7 @@
   "name": "subugoe/tify",
   "description": "tify integration for TYPO3",
   "type": "typo3-cms-extension",
-  "license": "AGPL-3.0",
+  "license": "AGPL-3.0-or-later",
   "authors": [
     {
       "name": "Ingo Pfennigstorf",
