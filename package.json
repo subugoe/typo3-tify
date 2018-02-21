@@ -5,7 +5,7 @@
     "main": "index.js",
     "private": true,
     "dependencies": {
-        "tify": "subugoe/tify"
+        "tify": "github:subugoe/tify"
     },
     "devDependencies": {},
     "scripts": {
