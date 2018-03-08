@@ -7,7 +7,6 @@
     "dependencies": {
         "tify": "github:subugoe/tify"
     },
-    "devDependencies": {},
     "scripts": {
         "copy": "cp -r node_modules/tify/dist/* Resources/Public/JavaScript/"
     },
