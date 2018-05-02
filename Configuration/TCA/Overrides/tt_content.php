@@ -5,7 +5,7 @@ call_user_func(
     function ($extKey) {
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
             [
-                'IIIF Viewer',
+                'Tify IIIF Viewer',
                 $extKey,
                 'content-textmedia',
             ],
