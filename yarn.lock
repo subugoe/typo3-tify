@@ -16,8 +16,8 @@ debug@^3.1.0:
     ms "2.0.0"
 
 follow-redirects@^1.2.5:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.0.tgz#234f49cf770b7f35b40e790f636ceba0c3a0ab77"
   dependencies:
     debug "^3.1.0"
 
@@ -33,7 +33,7 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-promise-polyfill@^6.0.2:
+promise-polyfill@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-6.1.0.tgz#dfa96943ea9c121fca4de9b5868cb39d3472e057"
 
@@ -43,14 +43,14 @@ striptags@^2.2.1:
 
 "tify@github:subugoe/tify":
   version "0.20.5"
-  resolved "https://codeload.github.com/subugoe/tify/tar.gz/badbab3a6138c23e98352a88a36d66c193f58ccd"
+  resolved "https://codeload.github.com/subugoe/tify/tar.gz/dd3fc0a9faee0f8b6913f067cd0228fdc2baa975"
   dependencies:
     axios "^0.17.1"
     material-design-icons-iconfont "^3.0.3"
-    promise-polyfill "^6.0.2"
+    promise-polyfill "^6.1.0"
     striptags "^2.2.1"
-    vue "^2.5.8"
+    vue "^2.5.16"
 
-vue@^2.5.8:
-  version "2.5.13"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.13.tgz#95bd31e20efcf7a7f39239c9aa6787ce8cf578e1"
+vue@^2.5.16:
+  version "2.5.16"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
