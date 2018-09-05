@@ -1,14 +1,14 @@
 mod.wizards.newContentElement.wizardItems {
     homepage {
         header = Viewer
-        show = *
+        show := addToList(tify_tify)
         elements {
-            theme-tuga {
+            tify_tify {
                 iconIdentifier = content-textmedia
                 title = IIIF Manifest
                 description = IIIF Manifest viewer
                 tt_content_defValues {
-                    CType = tify
+                    CType = tify_tify
                 }
             }
         }
