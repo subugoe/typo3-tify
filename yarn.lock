@@ -51,7 +51,7 @@ striptags@^2.2.1:
 
 "tify@github:subugoe/tify":
   version "0.20.5"
-  resolved "https://codeload.github.com/subugoe/tify/tar.gz/791603cc7911a5ed387ceb8690796ccd6b3a2f1a"
+  resolved "https://codeload.github.com/subugoe/tify/tar.gz/4539ce77ae8735a0a8555c612d3ade0ef7d4cbac"
   dependencies:
     axios "^0.17.1"
     material-design-icons-iconfont "^3.0.3"
