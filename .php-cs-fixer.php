@@ -1,18 +1,12 @@
 <?php
 
 $finder = PhpCsFixer\Finder::create()
-    ->exclude('build')
-    ->exclude('cache')
-    ->exclude('var')
-    ->exclude('vendor')
+    ->ignoreVCSIgnored(true)
     ->in(__DIR__);
 
-$config = PhpCsFixer\Config::create();
-$config
+return (new PhpCsFixer\Config())
     ->setRules([
         '@Symfony' => true,
         'array_syntax' => ['syntax' => 'short'],
     ])
     ->setFinder($finder);
-
-return $config;

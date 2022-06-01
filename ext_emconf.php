@@ -1,10 +1,10 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF['tify'] = [
     'title' => 'tify',
     'description' => 'tify integration for TYPO3',
     'category' => 'frontend',
-    'version' => '0.20.5',
+    'version' => '0.23.1',
     'state' => 'stable',
     'clearcacheonload' => 1,
     'author' => 'Ingo Pfennigstorf',
@@ -12,7 +12,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'SUB Uni-Göttingen',
     'constraints' => [
         'depends' => [
-                'typo3' => '9.5.0-10.4.99',
+                'typo3' => '10.4.0-11.5.99',
             ],
         'conflicts' => [],
         'suggests' => [],

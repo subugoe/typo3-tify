@@ -1,2 +1,6 @@
 node_modules
 .php_cs.cache
+composer.lock
+public
+vendor
+/.php-cs-fixer.cache
