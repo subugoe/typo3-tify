@@ -4,7 +4,7 @@
   var title = '{data.header}';
   var languageCode = {data.sys_language_uid};
 
-  var language = function() {
+  var language = function () {
     var lang = 'en';
     if (languageCode !== 0) {
       lang = 'de';
@@ -13,12 +13,13 @@
     return lang;
   };
 
-  tifyOptions = {
+  new Tify({
     container: '#tify-viewer',
     manifest: manifest,
-    title: title,
+    urlQueryKey: 'tify',
+    view: 'info',
     language: language()
-  };
+  })
 
 </script>
 <style>
@@ -29,3 +30,4 @@
     }
 </style>
 <script src="{f:uri.resource(path: 'JavaScript/tify.js', extensionName: 'tify')}"></script>
+<link rel="stylesheet" href="{f:uri.resource(path: ''JavaScript/tify.css)}">
