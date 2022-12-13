@@ -3,7 +3,7 @@
 declare(strict_types=1);
 use Rector\Config\RectorConfig;
 use Rector\Set\ValueObject\SetList;
-use Ssch\TYPO3Rector\Set\Typo3SetList;
+use Ssch\TYPO3Rector\Set\Typo3LevelSetList;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->parallel();
@@ -16,8 +16,7 @@ return static function (RectorConfig $rectorConfig): void {
 
     $rectorConfig->sets([
         SetList::CODE_QUALITY,
-        SetList::PHP_74,
-        Typo3SetList::TCA_104,
-        Typo3SetList::TYPOSCRIPT_CONDITIONS_104,
+        SetList::PHP_80,
+        Typo3LevelSetList::UP_TO_TYPO3_11,
     ]);
 };

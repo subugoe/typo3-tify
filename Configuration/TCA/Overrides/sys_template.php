@@ -1,8 +1,10 @@
 <?php
 
-defined('TYPO3_MODE') || exit('Access denied.');
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
-TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+defined('TYPO3') || exit('Access denied.');
+
+ExtensionManagementUtility::addStaticFile(
     'tify',
     'Configuration/TypoScript/',
     'Tify Configuration'

@@ -1,8 +1,10 @@
 <?php
 
-defined('TYPO3_MODE') || exit('Access denied.');
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
+defined('TYPO3') || exit('Access denied.');
+
+ExtensionManagementUtility::addPlugin(
     [
         'Tify IIIF Viewer',
         'tify_tify',

@@ -1,12 +1,14 @@
 <?php
 
-if (!defined('TYPO3_MODE')) {
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
+if (!defined('TYPO3')) {
     exit('Access denied.');
 }
 
 $autoexec = static function () {
     // Add PageTSConfig
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
+    ExtensionManagementUtility::addPageTSConfig(
         '<INCLUDE_TYPOSCRIPT: source="DIR: EXT:tify/Configuration/TSConfig/Page/General" extensions="typoscript">'
     );
 };
