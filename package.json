@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "tify": "^0.27.0"
+    "tify": "^0.28.1"
   },
   "scripts": {
     "copy": "cp -r node_modules/tify/dist/* Resources/Public/JavaScript/"

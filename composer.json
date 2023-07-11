@@ -9,11 +9,6 @@
       "email": "pfennigstorf@sub.uni-goettingen.de"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "Subugoe\\Tify\\": "Classes/"
-    }
-  },
   "require": {
     "php": "^8.0",
       "typo3/cms-core": "^11.5"
