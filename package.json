@@ -1,15 +1,15 @@
 {
   "name": "typo3-tify",
-  "version": "0.1.0",
+  "version": "0.31.0",
   "description": "tify integration for TYPO3",
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "tify": "^0.28.1"
+    "tify": "^0.31"
   },
   "scripts": {
     "copy": "cp -r node_modules/tify/dist/* Resources/Public/JavaScript/"
   },
-  "author": "Ingo Pfennigstorf <i.pfennigstorf@gmail.com>",
+  "author": "Ingo Pfennigstorf <pfennigstorf@sub.uni-goettingen.de>",
   "license": "AGPL-3.0"
 }
