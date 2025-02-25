@@ -11,7 +11,7 @@ $EM_CONF['tify'] = [
     'author_company' => 'SUB Uni-Göttingen',
     'constraints' => [
         'depends' => [
-            'typo3' => '12.5.0-12.5.99',
+            'typo3' => '12.4.0-12.4.99',
         ],
         'conflicts' => [],
         'suggests' => [],
