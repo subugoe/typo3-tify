@@ -11,8 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         env:
-          - { php: 8.2 }
-          - { php: 8.3, experimental: true }
+          - { php: 8.4 }
 
     env: ${{ matrix.env }}
 
