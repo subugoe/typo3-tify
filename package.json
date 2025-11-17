@@ -1,11 +1,11 @@
 {
   "name": "typo3-tify",
-  "version": "0.32.0",
+  "version": "0.34.0",
   "description": "tify integration for TYPO3",
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "tify": "^0.32"
+    "tify": "^0.34"
   },
   "scripts": {
     "copy": "cp -r node_modules/tify/dist/* Resources/Public/JavaScript/"
