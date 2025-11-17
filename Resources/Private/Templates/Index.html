@@ -1,20 +1,20 @@
 <div id="tify-viewer" class="tify_viewer"></div>
-<script src="{f:uri.resource(path: 'JavaScript/tify.js', extensionName: 'tify')}"></script>
+<script src="{f:uri.resource(path: 'JavaScript/tify.js', extensionName: 'tify')}" type="module></script>
 <script>
-  var manifest = '{data.bodytext}';
-  var title = '{data.header}';
-  var languageCode = {data.sys_language_uid};
+    const manifest = '{data.bodytext}';
+    const title = '{data.header}';
+    const languageCode = {data.sys_language_uid};
 
-  var language = function () {
-    var lang = 'en';
-    if (languageCode !== 0) {
-      lang = 'de';
-    }
+    const language = function () {
+        let lang = 'en';
+        if (languageCode !== 0) {
+            lang = 'de';
+        }
 
-    return lang;
-  };
+        return lang;
+    };
 
-  new Tify({
+    new Tify({
     container: '#tify-viewer',
     manifestUrl: manifest,
     urlQueryKey: 'tify',

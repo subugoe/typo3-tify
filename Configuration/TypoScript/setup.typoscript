@@ -1,5 +1,5 @@
-<INCLUDE_TYPOSCRIPT: source="FILE: EXT:fluid_styled_content/Configuration/TypoScript/Helper/ContentElement.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: EXT:fluid_styled_content/Configuration/TypoScript/Styling/setup.typoscript">
+@import ' EXT:fluid_styled_content/Configuration/TypoScript/Helper/ContentElement.typoscript'
+@import ' EXT:fluid_styled_content/Configuration/TypoScript/Styling/setup.typoscript'
 
 tt_content {
     tify_tify < lib.contentElement
